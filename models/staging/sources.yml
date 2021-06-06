@@ -1,0 +1,52 @@
+version: 2
+
+sources:
+  - name: adventure_works
+    description: This is a replica of the Postgres database used by our client.
+    tables:
+      - name: salesorderheader
+        description: >
+          One record per order. Includes cancelled and deleted orders.
+        columns:
+          - name: salesorderid
+            description: Primary key of the orders table
+            tests:
+              - unique
+              - not_null
+      
+      - name: salesorderdetail
+        description: Esta tabela contem informacoes sobre os detalhes da ordem da AW.
+      - name: product
+        description: Esta tabela contem informacoes sobre os produtos da AW.
+      - name: productsubcategory
+        description: Esta tabela contem informacoes sobre as subcategorais do produto da AW.
+      - name: productcategory
+        description: Esta tabela contem informacoes sobre as categorais do produto da AW.
+      - name: person
+        description: Esta tabela contem informacoes sobre os clientes da AW.
+      - name: businessentityaddress
+        description: Esta tabela contem informacoes para ligar os clientes da AW ao seu endereço.
+      - name: address
+        description: Esta tabela contem informacoes sobre o endereço dos clientes da AW.
+      - name: countryregion
+        description: Esta tabela contem informacoes sobre os paises.
+      - name: stateprovince
+        description: Esta tabela contem informacoes sobre os os estados.
+      - name: specialoffer
+        description: Esta tabela contem informacoes sobre as ofertas especiais da AW.
+      - name: specialofferproduct
+        description: Esta tabela liga as ofertas especiais com o produto.
+      - name: salesreason
+        description: Esta tabela contem informacoes sobre as razoes de venda da AW.
+      - name: salesorderheadersalesreason
+        description: Esta tabela liga as razoes de vendas com as ordens.
+      - name: creditcard
+        description: Esta tabela contem informacoes sobre os cartoes de credito usados na AW.
+      - name: currencyrate
+        description: Esta tabela contem informacoes sobre as taxas de conversao de moedas da AW.
+      - name: currency
+        description: Esta tabela liga as ordens com as taxas de conversao de moeda.
+      - name: customer
+        description: Esta tabela liga as ordens com os clientes.
+
+

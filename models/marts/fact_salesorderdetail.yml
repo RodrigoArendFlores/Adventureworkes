@@ -1,0 +1,10 @@
+version: 2
+
+models: 
+
+  - name: fact_salesorderdetail 
+    columns: 
+      - name: businessentityid
+        descripition: The primary key of the customers.
+        tests:
+          - not_null
