@@ -1,5 +1,5 @@
 # Project Adventureworks
-Code is a part of the Indicium's Analytics Engineering Course of 2021 Final Challenge.
+This repository is a part of the Indicium's Analytics Engineering Course of 2021 Final Challenge.
 
 In this course was necessary to do the complete data process, from extraction to visualization.
 
