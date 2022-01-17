@@ -8,5 +8,5 @@ The pipeline de EL (extract-load) was carried out with Stitch and the DW tool us
 In repository you will find certain part of the DBT code used in the project that I mentioned above.
 The entire DBT code is in the file "adventure_works.rar".
 
-The last part of the project Adventureworks, the visualization, is found here:
+The last part of the project, the visualization, is found here:
 https://datastudio.google.com/reporting/e071b78a-9f3a-4a11-8c97-751c53c65df8
